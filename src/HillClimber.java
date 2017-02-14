@@ -7,7 +7,7 @@ public class HillClimber {
 	// may need more instance variables
 	
 	public static void main(String[] args) {
-		LocalSearchState initial = null;  // this should be a real LocalState 
+		LocalSearchState initial = new StateClass(4);  // this should be a real LocalState (can change N)
 		HillClimber qc = new HillClimber(new LocalSearchNode(initial,0),0);
 		LocalSearchNode sol = qc.findSolution();
 		System.out.println(sol.getState()+" "+sol.getSteps());
@@ -18,14 +18,13 @@ public class HillClimber {
 		_shoulderSearchStepsAllowed = searchShoulder;
 	}
 
-	public LocalSearchNode findSolution() {
-		while (true) {
-
+	public LocalSearchNode findSolution() 
+	{
+		while (true) 
+		{
 			// TODO  write the code in this loop
 			//       be sure that you return
 			return null;  // dummy return so this looks like working code
 		}
-
 	}
-
 }

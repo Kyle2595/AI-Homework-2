@@ -12,7 +12,7 @@ public class LocalSearchDriver {
 		if (choice == 1)
 		{
 			// code to do Hill Climbing without shoulder moves here
-	
+
 		}
 		else if (choice == 2)
 		{
@@ -26,5 +26,4 @@ public class LocalSearchDriver {
 		else 
 			System.out.println("Bad choice");
 	}
-
 }
