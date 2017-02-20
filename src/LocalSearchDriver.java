@@ -11,7 +11,7 @@ public class LocalSearchDriver {
 		int choice = input.nextInt();
 		if (choice == 1)
 		{
-			// code to do Hill Climbing without shoulder moves here
+			
 
 		}
 		else if (choice == 2)

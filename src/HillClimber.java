@@ -44,7 +44,6 @@ public class HillClimber {
 						_fringe.addFirst(new LocalSearchNode(tempState, steps));
 					}
 				}
-
 			}
 		}
 	}
