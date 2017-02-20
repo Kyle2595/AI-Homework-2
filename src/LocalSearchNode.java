@@ -27,6 +27,11 @@ public class LocalSearchNode
 	{
 		return _numberOfSteps;
 	}
+	
+	public void setSteps(int x)
+	{
+		_numberOfSteps = x;
+	}
 
 	public String toString()
 	{

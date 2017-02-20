@@ -11,8 +11,7 @@ public class LocalSearchDriver {
 		int choice = input.nextInt();
 		if (choice == 1)
 		{
-			
-
+			HillClimber.main(args);
 		}
 		else if (choice == 2)
 		{
@@ -21,7 +20,7 @@ public class LocalSearchDriver {
 		}
 		else if (choice == 3)
 		{
-			// code to do Genetic Algorithm here 
+			GeneticAlgorithm.main(args);
 		}
 		else 
 			System.out.println("Bad choice");
