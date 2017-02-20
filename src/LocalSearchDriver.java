@@ -11,12 +11,13 @@ public class LocalSearchDriver {
 		int choice = input.nextInt();
 		if (choice == 1)
 		{
+			HillClimber._shoulderSearchStepsAllowed = 0;
 			HillClimber.main(args);
 		}
 		else if (choice == 2)
 		{
-			// code to do Hill Climbing with shoulder moves here
-			
+			HillClimber._shoulderSearchStepsAllowed = 8;
+			HillClimber.main(args);
 		}
 		else if (choice == 3)
 		{

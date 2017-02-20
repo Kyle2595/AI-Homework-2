@@ -43,10 +43,7 @@ public class StateClass implements LocalSearchState {
 	@Override
 	public List<String> actions() 
 	{
-		List<String> actionList = Arrays.asList("Move UP",
-				"Move DOWN",
-				"Move LEFT",
-				"Move RIGHT");
+		List<String> actionList = Arrays.asList("Move UP", "Move DOWN");
 		return actionList;
 	}
 

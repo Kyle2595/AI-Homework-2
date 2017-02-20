@@ -38,8 +38,8 @@ public class GeneticAlgorithm {
 				currentState = element.getState();
 				for (String s: element.getState().actions()) 
 				{
-					LocalSearchState x = ;
-					LocalSearchState y = ;
+					LocalSearchState x = currentState.successor("Move UP");;
+					LocalSearchState y = currentState.successor("Move DOWN");;
 					LocalSearchNode child = Reproduce(x,y);
 					
 					if(ThreadLocalRandom.current().nextInt(1, 11) < 3)
